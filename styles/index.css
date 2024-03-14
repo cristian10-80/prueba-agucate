@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Cambia el color de fondo según tu preferencia */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; /* Esto centra el contenido */
+    padding: 0 20px; /* Esto crea los espacios a los lados */
+    text-align: center; /* Centra el contenido dentro del contenedor */
+}
+
+.container img {
+    max-width: 100%; /* Ajustamos la anchura máxima al 100% del contenedor */
+    height: 500px; /* Cambia este valor según el tamaño deseado */
+    display: block;
+    margin: 0 auto; /* Esto centra las imágenes dentro del contenedor */
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Espacio entre los elementos del menú */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento del menú */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Cambia el color del texto del enlace según tu preferencia */
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos específicos */
+#beneficios, #recetas, #contacto {
+    background-color: #f9f9f9;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#beneficios h2, #recetas h2, #contacto h2 {
+    color: #333;
+}
+
+#beneficios {
+    background-image: url("../img/beneficios.png"); /* Ruta de la imagen de fondo */
+    background-size: cover; /* La imagen cubrirá toda la sección */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-position: center; /* Centra la imagen */
+    padding: 0 20px; /* Esto mantiene el mismo espacio a los lados que el contenedor */
+    margin: 20px auto; /* Esto centra la sección y agrega margen superior e inferior */
+    max-width: 1200px; /* Establece el ancho máximo igual al del contenedor */
+    border-radius: 10px; /* Añade esquinas redondeadas si lo deseas */
+    height: 250px; /* Ajusta la altura de la sección según sea necesario */
+}
+
+#recetas {
+    background-image: url("../img/subproductos.jpg"); /* Ruta de la imagen de fondo */
+    background-size: cover; /* La imagen cubrirá toda la sección */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-position: center; /* Centra la imagen */
+    padding: 0 20px; /* Esto mantiene el mismo espacio a los lados que el contenedor */
+    margin: 20px auto; /* Esto centra la sección y agrega margen superior e inferior */
+    max-width: 1200px; /* Establece el ancho máximo igual al del contenedor */
+    border-radius: 10px; /* Añade esquinas redondeadas si lo deseas */
+    height: 250px; /* Ajusta la altura de la sección según sea necesario */
+}
+
+#contacto {
+    background-image: url("../img/contacto.jpg"); /* Ruta de la imagen de fondo */
+    background-size: cover; /* La imagen cubrirá toda la sección */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-position: center; /* Centra la imagen */
+    padding: 0 20px; /* Esto mantiene el mismo espacio a los lados que el contenedor */
+    margin: 20px auto; /* Esto centra la sección y agrega margen superior e inferior */
+    max-width: 1200px; /* Establece el ancho máximo igual al del contenedor */
+    border-radius: 10px; /* Añade esquinas redondeadas si lo deseas */
+    height: 250px; /* Ajusta la altura de la sección según sea necesario */
+}
+
+
+address {
+    margin-top: 10px;
+}
+
+button {
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: #cfef00;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+  
+  button:hover {
+    background: #c4e201;
+  }
+  
+  button > svg {
+    width: 34px;
+    margin-left: 10px;
+    transition: transform .3s ease-in-out;
+  }
+  
+  button:hover svg {
+    transform: translateX(5px);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+
+.container-tarje {
+    gap: 10px;
+    display: flex;
+    max-width: 600%; /* Ajusta el ancho máximo según sea necesario */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+}
+
+.tarjeta {
+    height: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega sombra */
+    padding: 20px;
+    margin-bottom: 20px; /* Espacio entre tarjetas */
+}
+
+.tarjeta img {
+    width: 100%; /* Ajusta la imagen al ancho de la tarjeta */
+    height:100% ;
+    border-radius: 8px 8px 0 0; /* Añade bordes redondeados solo arriba */
+}
+
+.tarjeta p {
+    color: #333; /* Color del texto */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+  
+  
